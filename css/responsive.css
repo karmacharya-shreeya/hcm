@@ -1,0 +1,454 @@
+/**
+ * Created by Joshua Tamang
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+/*-------------------------------------- Mixins Starts ------------------------------------*/
+/*--------------------------------------- Mixins Ends -------------------------------------*/
+/*------------------------------------ Site Wide Starts -----------------------------------*/
+/*------------------------------------- Site Wide Ends ------------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*--------------------------------- Header Wrapper Starts ---------------------------------*/
+/*-------------------------------- Content Wrapper Starts ---------------------------------*/
+/*--------------------------------- Content Wrapper Ends ----------------------------------*/
+/*--------------------------------- Footer Wrapper Starts ---------------------------------*/
+/*---------------------------------- Footer Wrapper Ends ----------------------------------*/
+/*----------------------------------- Components Starts -----------------------------------*/
+/*------------------------------------ Components Ends ------------------------------------*/
+/*---------------------------------- Slick Slider Starts ----------------------------------*/
+/*----------------------------------- Slick Slider Ends -----------------------------------*/
+/*------------------------------------- Mcustom Starts ------------------------------------*/
+/*-------------------------------------- Mcustom Ends -------------------------------------*/
+@media all and (max-width: 1600px) {
+  html {
+    font-size: 42%;
+  }
+  #content-wrapper #home-page .about-section .custom-container .about-content-wrapper .right-content .image-container {
+    height: 73rem;
+  }
+  #content-wrapper #home-page .choice-section .section-title {
+    padding-bottom: 8rem;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .right-content .img-item {
+    height: 35.8rem;
+  }
+  #content-wrapper #about-page .mission-vision-section .custom-container .common-content-wrapper .image-container .img-item {
+    width: 13rem;
+    margin: auto;
+  }
+  #content-wrapper #event-page .event-section .event-section-wrapper .type-text h2 {
+    font-size: 2.2rem;
+  }
+  #content-wrapper #event-page .event-section .event-section-wrapper .type-text p {
+    font-size: 2rem;
+  }
+  #content-wrapper #award-page .award-detail-section .custom-container {
+    padding: 10rem;
+  }
+  #content-wrapper #award-page .award-detail-section .custom-container .image-section {
+    width: 50rem;
+    margin: auto;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container {
+    padding: 15rem 20rem;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .contact-us-container .heading-container h1 {
+    font-size: 5rem;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .form-container {
+    padding: 6rem 10rem;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .form-container h1 {
+    font-size: 5rem;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .form-container button {
+    font-size: 2rem;
+  }
+  .common-program-section .common-program-section-wrapper .type-image .img-item {
+    height: 72.5rem;
+  }
+  .common-program-section .common-program-section-wrapper .type-image .img-item img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .common-program-section .common-program-section-wrapper .type-text .button-wrapper {
+    justify-content: initial;
+    gap: 3rem;
+  }
+  .common-message-section .custom-container .section-wrapper .profile-section .profile-wrapper .img-item {
+    width: 35rem;
+  }
+  .common-message-section .custom-container .section-wrapper .logo-section {
+    height: 46rem;
+  }
+  .modal.form .modal-dialog {
+    max-width: 1000px;
+  }
+}
+@media all and (max-width: 1500px) {
+  html {
+    font-size: 39%;
+  }
+}
+@media all and (max-width: 1399px) {
+  #content-wrapper #home-page .about-section .custom-container .about-content-wrapper .left-content .about-us h2 {
+    padding-bottom: 4rem;
+  }
+  #content-wrapper #home-page .about-section .custom-container .about-content-wrapper .left-content .records {
+    padding-top: 5rem;
+  }
+}
+@media all and (max-width: 1300px) {
+  html {
+    font-size: 36%;
+  }
+}
+@media all and (max-width: 1120px) {
+  html {
+    font-size: 34%;
+  }
+  .custom-container {
+    padding: 8rem;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .right-content .img-item {
+    height: 37.2rem;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .image-section .img-item {
+    height: 80rem;
+  }
+}
+@media all and (max-width: 1047px) {
+  html {
+    font-size: 32%;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container {
+    padding: 8rem;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .top-footer-section {
+    height: 40vh;
+  }
+  .modal.form .modal-dialog {
+    max-width: 800px;
+  }
+}
+@media all and (max-width: 991px) {
+  html {
+    font-size: 29%;
+  }
+  body.open-menu .nav-section {
+    max-width: 350px;
+  }
+  body.open-menu #header-wrapper .header-section .toggle-button span {
+    background-color: white;
+  }
+  body.open-menu #header-wrapper .header-section .toggle-button span:first-child {
+    transform: translateY(1px) rotate(45deg);
+  }
+  body.open-menu #header-wrapper .header-section .toggle-button span:nth-child(2) {
+    display: none;
+  }
+  body.open-menu #header-wrapper .header-section .toggle-button span:nth-child(3) {
+    transform: translateY(-5.5px) rotate(-45deg);
+  }
+  #header-wrapper .header-section {
+    padding: 3rem 7rem;
+  }
+  #header-wrapper .header-section .nav-bar {
+    display: none;
+  }
+  #header-wrapper .header-section .toggle-button {
+    display: inline-block;
+    cursor: pointer;
+  }
+  #header-wrapper .header-section .toggle-button span {
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    display: block;
+    transition: transform 0.5s linear;
+  }
+  #header-wrapper .header-section .toggle-button span:not(:last-of-type) {
+    margin-bottom: 4px;
+  }
+  #header-wrapper.nav-scroll .header-section {
+    padding: 1rem 7rem;
+  }
+  #content-wrapper #home-page .about-section .custom-container .about-content-wrapper {
+    flex-direction: column-reverse;
+  }
+  #content-wrapper #home-page .about-section .custom-container .about-content-wrapper .left-content .about-us h2 {
+    width: 100%;
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+  }
+  #content-wrapper #home-page .choice-section .section-content .choice-slider-wrapper {
+    flex-wrap: wrap;
+    gap: 0;
+    margin: -2.5rem;
+  }
+  #content-wrapper #home-page .choice-section .section-content .choice-slider-wrapper .choice-box {
+    flex-basis: 50%;
+    padding: 2.5rem;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .left-content .hcm-mission h2 {
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+    letter-spacing: 1.5;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .left-content .hcm-mission p {
+    line-height: 2;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .right-content .img-item {
+    height: 37.2rem;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .image-section .img-item {
+    height: 83rem;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .text-section {
+    padding: 2rem 5rem;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .text-section .section-logo {
+    padding: 5rem;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .text-section .read-more button {
+    padding: 0;
+  }
+  #content-wrapper #credit-transfer-page .credit-transfer-section .credit-transfer-details .text-wrapper h2 {
+    line-height: 2;
+  }
+  #content-wrapper #alumini-page .alumini-stories-section .alumini-story .img-container {
+    flex-basis: 37.5%;
+  }
+  #content-wrapper #alumini-page .alumini-stories-section .alumini-story .text-container {
+    flex-basis: 62.5%;
+  }
+  #content-wrapper #download-page .button-wrapper .button-content .button-item {
+    width: 31%;
+  }
+  .common-program-section .common-program-section-wrapper .type-image .img-item {
+    height: 100%;
+  }
+  .common-program-section .common-program-section-wrapper .type-text {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .common-notice-section .custom-container .notice-section-wrapper .notice-box .notice-box-wrapper .text-section h3 {
+    font-size: 2.4rem;
+  }
+  .common-notice-section .custom-container .notice-section-wrapper .notice-box .notice-box-wrapper .text-section p {
+    font-size: 1.8rem;
+    line-height: 2.3;
+  }
+  .modal.form .modal-dialog {
+    max-width: 750px;
+  }
+}
+@media all and (max-width: 767px) {
+  html {
+    font-size: 20%;
+  }
+  .custom-container {
+    padding: 8rem 3rem;
+  }
+  body.open-menu .nav-section {
+    max-width: 100%;
+  }
+  .floating-form {
+    display: none;
+  }
+  #header-wrapper .header-section {
+    padding: 3rem;
+  }
+  #header-wrapper.nav-scroll .header-section {
+    padding: 1rem 3rem;
+  }
+  #header-wrapper.nav-scroll .header-section .logo {
+    width: 35rem;
+    height: 12rem;
+  }
+  #content-wrapper #home-page .choice-section .section-content .choice-slider-wrapper .choice-box {
+    flex-basis: 100%;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper {
+    flex-wrap: wrap;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .left-content {
+    flex-basis: 100%;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .left-content .hcm-mission h2 {
+    width: 100%;
+  }
+  #content-wrapper #about-page .hcm-mission-section .custom-container .hcm-mission-wrapper .right-content {
+    display: none;
+  }
+  #content-wrapper #about-page .mission-vision-section .custom-container {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  #content-wrapper #about-page .mission-vision-section .custom-container .common-content-wrapper {
+    flex-basis: 100%;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .image-section {
+    flex-basis: 100%;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .text-section {
+    flex-basis: 100%;
+    padding: 0 0 3rem 0;
+  }
+  #content-wrapper #about-page .about-iukl-section .custom-container .image-text-wrapper .text-section .section-logo img {
+    width: 85%;
+  }
+  #content-wrapper #credit-transfer-page .credit-transfer-section .credit-transfer-details {
+    flex-wrap: wrap-reverse;
+  }
+  #content-wrapper #credit-transfer-page .credit-transfer-section .credit-transfer-details .image-container {
+    flex-basis: 100%;
+  }
+  #content-wrapper #credit-transfer-page .credit-transfer-section .credit-transfer-details .text-wrapper {
+    flex-basis: 100%;
+  }
+  #content-wrapper #credit-transfer-page .credit-transfer-section .credit-transfer-details .text-wrapper h2 {
+    line-height: 2;
+  }
+  #content-wrapper #faq-page .section-header h1 {
+    font-size: 4rem;
+  }
+  #content-wrapper #news-details-page .news-details-section .content-wrapper .text-container .date-title-wrapper {
+    flex-direction: column;
+  }
+  #content-wrapper #event-page .event-section .event-section-wrapper {
+    flex-wrap: wrap;
+  }
+  #content-wrapper #event-page .event-section .event-section-wrapper .type-image {
+    flex-basis: 100%;
+  }
+  #content-wrapper #event-page .event-section .event-section-wrapper .type-text {
+    flex-basis: 100%;
+  }
+  #content-wrapper #gallery-page .gallery-section .image-container {
+    margin: 0;
+  }
+  #content-wrapper #gallery-page .gallery-section .image-container .img-item {
+    flex-basis: 100%;
+  }
+  #content-wrapper #alumini-page .alumini-stories-section .alumini-story {
+    flex-wrap: wrap;
+  }
+  #content-wrapper #alumini-page .alumini-stories-section .alumini-story .img-container {
+    flex-basis: 100%;
+  }
+  #content-wrapper #alumini-page .alumini-stories-section .alumini-story .text-container {
+    flex-basis: 100%;
+  }
+  #content-wrapper #award-page .award-detail-section .custom-container {
+    padding: 8rem 3rem;
+  }
+  #content-wrapper #download-page .button-wrapper .button-content .button-item {
+    width: 100%;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container {
+    flex-wrap: wrap;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .contact-us-container {
+    width: 100%;
+  }
+  #content-wrapper #contact-page .contact-section .custom-container .contact-container .form-container {
+    width: 100%;
+    padding: 6rem 4rem;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .top-footer-section {
+    display: none;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section {
+    padding: 10rem 4rem;
+    flex-wrap: wrap;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .summary-section {
+    flex-basis: 100%;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .summary-section .logo-container img {
+    height: 15rem;
+    width: 60rem;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .common-footer-content {
+    flex-basis: 100%;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .common-footer-content ul {
+    padding-top: 3rem;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .contact-section {
+    flex-basis: 100%;
+  }
+  #footer-wrapper .footer-section .custom-container .section-wrapper .bottom-footer-section .contact-section .contact-wrapper {
+    padding-top: 3rem;
+  }
+  #footer-wrapper .footer-section .custom-container .copy-right-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #footer-wrapper .footer-section .custom-container .copy-right-section .cr-2 {
+    display: none;
+  }
+  .common-banner-section .common-banner-image-container .text-section h1 {
+    font-size: 8rem;
+  }
+  .common-banner-section .common-banner-image-container .text-section .button-wrapper {
+    flex-direction: column;
+    margin-inline: 20rem;
+  }
+  .common-banner-section .common-banner-image-container .text-section .button-wrapper .button-element {
+    font-size: 2.2rem;
+    padding: 2rem 10rem;
+  }
+  .common-program-section .common-program-section-wrapper {
+    flex-wrap: wrap;
+  }
+  .common-program-section .common-program-section-wrapper .type-image {
+    flex-basis: 100%;
+  }
+  .common-program-section .common-program-section-wrapper .type-text {
+    flex-basis: 100%;
+    padding: 7rem 6rem;
+  }
+  .common-program-section .common-program-section-wrapper .type-text p {
+    padding: 4rem 0 6rem 0;
+  }
+  .common-notice-section .notice-section-wrapper .section-header a {
+    display: none;
+  }
+  .common-notice-section .notice-section-wrapper .notice-box {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .common-notice-section .notice-section-wrapper .notice-box .notice-box-wrapper {
+    flex-basis: 100%;
+  }
+  .common-message-section .custom-container .section-wrapper .message-section .message-wrapper {
+    flex-wrap: wrap;
+  }
+  .common-message-section .custom-container .section-wrapper .message-section .message-wrapper .message-item {
+    flex-basis: 100%;
+  }
+  .common-message-section .custom-container .section-wrapper .logo-section {
+    text-align: center;
+  }
+  .common-accordion-wrapper {
+    flex-direction: column;
+  }
+  .common-accordion-wrapper .common-content .common-accordion-section .accordion .accordion-item h2 button {
+    padding: 1.5rem 4rem;
+  }
+  .common-nav-slider {
+    padding: 7rem 0;
+  }
+  .common-nav-slider .nav-slider .nav-item button {
+    padding: 3rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

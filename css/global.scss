@@ -1,0 +1,113 @@
+/**
+ * Created by Joshua Tamang
+*/
+
+@import "components/fonts_and_colors";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-type-1;
+  border: none;
+  outline: none;
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  line-height: 2;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none !important;
+  }
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.custom-container {
+  padding: 10rem;
+  margin: auto;
+  position: relative;
+}
+
+.common-btn {
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  &::before {
+    position: absolute;
+    content: "";
+    inset: -2px;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+    background-color: $primary-color;
+  }
+  &:hover {
+    &::before {
+      transform: scaleX(1);
+      transform-origin: left center;
+    }
+  }
+}
+
+.bar,
+.bar1 {
+  background-color: $primary-color;
+  height: 2px;
+  width: 35px;
+  border-radius: 10rem;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+button {
+  background: unset;
+  border: unset;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  margin-bottom: 2.2rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
